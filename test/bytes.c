@@ -12,5 +12,6 @@ int main(int argc, char const *argv[])
 	printf("long long %d\n", sizeof(long long));
 	printf("float %d\n", sizeof(float));
 	printf("double %d\n", sizeof(double));
+	printf("bool %d\n", sizeof(bool));
 	return 0;
 }

@@ -1,0 +1,33 @@
+
+--------------Size:200--------------
+Sat Oct  4 10:19:13 CST 2014
+      shellSort:   0.000000000000000s
+      mergeSort:   0.000000000000000s
+    mergeSortO3:   0.000000000000000s
+    buMergeSort:   0.000000000000000s
+      quickSort:   0.000000000000000s
+     quickSortO:   0.000000000000000s
+     qusort3way:   0.000000000000000s
+       heapSort:   0.000000000000000s
+
+--------------Size:2000--------------
+Sat Oct  4 10:19:59 CST 2014
+      shellSort:   0.000000000000000s
+      mergeSort:   0.000000000000000s
+    mergeSortO3:   0.000000000000000s
+    buMergeSort:   0.015000000000000s
+      quickSort:   0.000000000000000s
+     quickSortO:   0.000000000000000s
+     qusort3way:   0.000000000000000s
+       heapSort:   0.000000000000000s
+
+--------------Size:20000--------------
+Sat Oct  4 10:20:05 CST 2014
+      shellSort:   0.016000000000000s
+      mergeSort:   0.000000000000000s
+    mergeSortO3:   0.015000000000000s
+    buMergeSort:   0.000000000000000s
+      quickSort:   0.016000000000000s
+     quickSortO:   0.000000000000000s
+     qusort3way:   0.016000000000000s
+       heapSort:   0.000000000000000s
