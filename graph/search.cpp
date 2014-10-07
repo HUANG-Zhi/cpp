@@ -7,7 +7,6 @@ void DepthFirstSearch::dfs(Graph g,int s){
 		edgeTo[j] = s;
 	}
 }
-
 std::deque<int> DepthFirstSearch::pathTo(int t){
 	std::deque<int> path;
 	if(!hasPathTo(t)) return path;
@@ -42,7 +41,6 @@ void BreadFirstSearch::bfs(Graph g,int s){
 		}
 	}
 }
-
 std::deque<int> BreadFirstSearch::pathTo(int t){
 	std::deque<int> path;
 	if(!hasPathTo(t)) return path;

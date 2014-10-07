@@ -59,6 +59,7 @@ void selectionSort(void* array,int length,int(*compare)(void *,int,int),void(*ex
 		exch(array,min,i);
 	}
 }
+
 void insertionSort(void* array,int length,int (*compare)(void *,int,int),void(*exch)(void*,int,int)){
 	int i,j;
 	for(i = 1;i<length;i++){
@@ -84,7 +85,6 @@ void shellSort(void* array,int length,int (*compare)(void *,int,int),void(*exch)
 }
 
 //mergeSort:pure merge sort
-
 void merge(void * array,void* aux,int lo,int mid,int hi,int (*compare)(void *,int,int),void(*assign)(void *,void*,int,int)){
 	//copy array
 	int i,j,k;

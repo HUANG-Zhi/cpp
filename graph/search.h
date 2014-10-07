@@ -31,7 +31,6 @@ public:
 	~DepthFirstSearch(){
 		delete[] marked;
 	};
-
 };
 
 class BreadFirstSearch
